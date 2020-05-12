@@ -8,7 +8,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
         android:text="@string/choose_a_category"
+        android:textColor="#673AB7"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,60 +20,81 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="665dp"
+        android:layout_width="410dp"
+        android:layout_height="596dp"
+        android:layout_marginTop="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/goToOnlineGames"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/online_games" />
+                android:background="#A77C5BB8"
+                android:fontFamily="monospace"
+                android:text="@string/online_games"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToMobileGames"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/mobile_games" />
+                android:background="#673AB7"
+                android:fontFamily="monospace"
+                android:text="@string/mobile_games"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToNoDevice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/no_device_required" />
+                android:background="#A77C5BB8"
+                android:fontFamily="monospace"
+                android:text="@string/no_device_required"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToLimitedSupplies"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/limited_supplies_required" />
+                android:background="#673AB7"
+                android:fontFamily="monospace"
+                android:text="@string/limited_supplies_required"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToFreeGames"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/free_games" />
+                android:background="#A77C5BB8"
+                android:fontFamily="monospace"
+                android:text="@string/free_games"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToPaid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/paid_games" />
+                android:background="#673AB7"
+                android:fontFamily="monospace"
+                android:text="@string/paid_games"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/goToOtherActivities"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/other_virtual_activities" />
+                android:background="#A77C5BB8"
+                android:fontFamily="monospace"
+                android:text="@string/other_virtual_activities"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

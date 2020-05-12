@@ -8,34 +8,41 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="323dp"
+        android:layout_height="62dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
         android:text="@string/welcome_to_quarantine_games"
+        android:textColor="#673AB7"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.382" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="374dp"
-        android:layout_height="30dp"
+        android:layout_width="333dp"
+        android:layout_height="46dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
         android:text="@string/are_you_bored_in_the_house_and_in_the_house_bored"
+        android:textColor="#673AB7"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/goToMainMenu"
-        android:layout_width="266dp"
-        android:layout_height="47dp"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
         android:background="#673AB7"
+        android:fontFamily="monospace"
+        android:onClick="goToMainMenu"
         android:text="@string/click_here_to_find_some_games"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,6 +50,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.625" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

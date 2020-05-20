@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FBE8A6">
 
     <TextView
         android:id="@+id/textView4"
@@ -10,22 +12,22 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:text="@string/online_games3"
-        android:textColor="#673AB7"
+        android:textColor="#303C6C"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
 
     <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="674dp"
+        android:layout_width="407dp"
+        android:layout_height="605dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
@@ -37,10 +39,10 @@
                 android:id="@+id/goToFakeArtist"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#A77C5BB8"
+                android:background="#B4DFE5"
                 android:fontFamily="monospace"
                 android:text="@string/fake_artist_online"
-                android:textColor="#FFFFFF" />
+                android:textColor="#303C6C" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

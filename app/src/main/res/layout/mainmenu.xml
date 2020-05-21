@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBE8A6">
@@ -15,15 +16,15 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <ScrollView
-        android:layout_width="410dp"
-        android:layout_height="596dp"
-        android:layout_marginTop="88dp"
+        android:layout_width="362dp"
+        android:layout_height="686dp"
+        android:layout_marginTop="95dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,21 +54,12 @@
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToNoDevice"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#B4DFE5"
-                android:fontFamily="monospace"
-                android:text="@string/no_device_required"
-                android:textColor="#303C6C" />
-
-            <Button
-                android:id="@+id/goToLimitedSupplies"
+                android:id="@+id/goToSomeSupplies"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F4976C"
                 android:fontFamily="monospace"
-                android:text="@string/limited_supplies_required"
+                android:text="@string/some_supplies_required"
                 android:textColor="#303C6C" />
 
             <Button

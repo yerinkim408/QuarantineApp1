@@ -20,6 +20,9 @@
         <activity android:name=".MainMenu" />
         <activity android:name=".OnlineGames"
             tools:ignore="DuplicateActivity" />
+        <activity android:name=".MobileGames" />
+        <activity android:name=".SomeSupplies" />
+
     </application>
 
 </manifest>

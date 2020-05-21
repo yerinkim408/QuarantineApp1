@@ -14,4 +14,17 @@
     <string name="online_games2">Online Games</string>
     <string name="fake_artist_online">Fake Artist Online</string>
     <string name="online_games3">Online Games:</string>
+    <string name="mobile_games2">Mobile Games:</string>
+    <string name="skribbl_io">Skribbl.io</string>
+    <string name="club_penguin">Club Penguin</string>
+    <string name="kahoot">Kahoot</string>
+    <string name="minecraft">Minecraft</string>
+    <string name="monopoly_online">Monopoly Online</string>
+    <string name="pogo_com">Pogo.com</string>
+    <string name="house_party">House Party</string>
+    <string name="mario_kart">Mario Kart</string>
+    <string name="scrabble">Scrabble</string>
+    <string name="some_supplies_required">Some Supplies Required</string>
+    <string name="telephone_pictionary">Telephone Pictionary</string>
+    <string name="some_supplies_required2">Some Supplies Required:</string>
 </resources>

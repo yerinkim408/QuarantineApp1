@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="@string/online_games3"
+        android:text="@string/mobile_games2"
         android:textColor="#303C6C"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,30 +36,30 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/goToClubPenguin"
+                android:id="@+id/goToHouseParty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#B4DFE5"
                 android:fontFamily="monospace"
-                android:text="@string/club_penguin"
-                android:textColor="#303C6C" />
-
-            <Button
-                android:id="@+id/goToFakeArtist"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#F4976C"
-                android:fontFamily="monospace"
-                android:text="@string/fake_artist_online"
+                android:text="@string/house_party"
                 android:textColor="#303C6C" />
 
             <Button
                 android:id="@+id/goToKahoot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#B4DFE5"
+                android:background="#F4976C"
                 android:fontFamily="monospace"
                 android:text="@string/kahoot"
+                android:textColor="#303C6C" />
+
+            <Button
+                android:id="@+id/goToMarioKart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B4DFE5"
+                android:fontFamily="monospace"
+                android:text="@string/mario_kart"
                 android:textColor="#303C6C" />
 
             <Button
@@ -72,31 +72,14 @@
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToMonopoly"
+                android:id="@+id/goToScrabble"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#B4DFE5"
                 android:fontFamily="monospace"
-                android:text="@string/monopoly_online"
+                android:text="@string/scrabble"
                 android:textColor="#303C6C" />
 
-            <Button
-                android:id="@+id/goToPogo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#F4976C"
-                android:fontFamily="monospace"
-                android:text="@string/pogo_com"
-                android:textColor="#303C6C" />
-
-            <Button
-                android:id="@+id/goToSkribblio"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#B4DFE5"
-                android:fontFamily="monospace"
-                android:text="@string/skribbl_io"
-                android:textColor="#303C6C" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

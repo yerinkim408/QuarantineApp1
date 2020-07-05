@@ -27,4 +27,9 @@
     <string name="some_supplies_required">Some Supplies Required</string>
     <string name="telephone_pictionary">Telephone Pictionary</string>
     <string name="some_supplies_required2">Some Supplies Required:</string>
+    <string name="random_generator">Random Generator:</string>
+    <string name="none" />
+    <string name="none1" />
+    <string name="jackbox">jackbox</string>
+    <string name="back_main_menu">Back to menu</string>
 </resources>

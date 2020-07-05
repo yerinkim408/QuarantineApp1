@@ -39,6 +39,24 @@ public class MainMenu extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
+
+        //some supplies button
+        Button button4 = findViewById(R.id.goToFreeGames) ;
+        button4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent4 = new Intent(MainMenu.this, FreeGames.class);
+                startActivity(intent4);
+            }
+        });
+
+        //some back button
+        Button button5 = findViewById(R.id.goToActivityMain) ;
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent4 = new Intent(MainMenu.this, MainActivity.class);
+                startActivity(intent4);
+            }
+        });
     }
 
 }

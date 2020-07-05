@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //button to go to the main menu of game categories
         Button button = findViewById(R.id.goToMainMenu);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -21,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //random generator button
+        //Button randombutton = findViewById(R.id.goToRandomGen);
+        //create list of games/activities each assigned to a number
+        //get random number
+        //according to which number is picked, go to certain page
 
     }
 

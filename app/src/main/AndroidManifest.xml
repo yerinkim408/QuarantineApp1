@@ -22,6 +22,18 @@
             tools:ignore="DuplicateActivity" />
         <activity android:name=".MobileGames" />
         <activity android:name=".SomeSupplies" />
+        <activity android:name=".ClubPenguin" />
+        <activity android:name=".FakeArtist" />
+        <activity android:name=".FreeGames" />
+        <activity android:name=".HouseParty" />
+        <activity android:name=".Kahoot" />
+        <activity android:name=".MarioKart" />
+        <activity android:name=".Minecraft" />
+        <activity android:name=".Monopoly" />
+        <activity android:name=".Pogo" />
+        <activity android:name=".Scrabble" />
+        <activity android:name=".Skribblio" />
+        <activity android:name=".TelephonePictionary" />
 
     </application>
 

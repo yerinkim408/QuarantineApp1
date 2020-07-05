@@ -11,25 +11,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="@string/choose_a_category"
+        android:text="Free games:"
         android:textColor="#303C6C"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.144" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/scrollView6"
         android:layout_width="362dp"
         android:layout_height="686dp"
         android:layout_marginTop="95dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.371">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,72 +39,98 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/goToOnlineGames"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#F4976C"
-                android:fontFamily="monospace"
-                android:text="@string/online_games"
-                android:textColor="#303C6C" />
-
-            <Button
-                android:id="@+id/goToMobileGames"
+                android:id="@+id/goToClubPenguin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#B4DFE5"
                 android:fontFamily="monospace"
-                android:text="@string/mobile_games"
+                android:text="@string/club_penguin"
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToSomeSupplies"
+                android:id="@+id/goToFakeArtist"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F4976C"
                 android:fontFamily="monospace"
-                android:text="@string/some_supplies_required"
+                android:text="@string/fake_artist_online"
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToFreeGames"
+                android:id="@+id/goToKahoot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#B4DFE5"
                 android:fontFamily="monospace"
-                android:text="@string/free_games"
+                android:text="@string/kahoot"
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToPaidGames"
+                android:id="@+id/goToMarioKart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F4976C"
                 android:fontFamily="monospace"
-                android:text="@string/paid_games"
+                android:text="@string/mario_kart"
                 android:textColor="#303C6C" />
 
             <Button
-                android:id="@+id/goToOtherGames"
+                android:id="@+id/goToMonopoly"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#B4DFE5"
                 android:fontFamily="monospace"
-                android:text="@string/other_virtual_activities"
+                android:text="@string/monopoly_online"
+                android:textColor="#303C6C" />
+
+            <Button
+                android:id="@+id/goToPogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F4976C"
+                android:fontFamily="monospace"
+                android:text="@string/pogo_com"
+                android:textColor="#303C6C" />
+
+            <Button
+                android:id="@+id/goToScrabble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B4DFE5"
+                android:fontFamily="monospace"
+                android:text="@string/scrabble"
+                android:textColor="#303C6C" />
+
+            <Button
+                android:id="@+id/goToSkribblio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F4976C"
+                android:fontFamily="monospace"
+                android:text="@string/skribbl_io"
+                android:textColor="#303C6C" />
+
+            <Button
+                android:id="@+id/goToTelephonePictionary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B4DFE5"
+                android:fontFamily="monospace"
+                android:text="@string/telephone_pictionary"
                 android:textColor="#303C6C" />
 
         </LinearLayout>
     </ScrollView>
 
     <Button
-        android:id="@+id/goToActivityMain"
+        android:id="@+id/goToMainMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back to menu"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
-
+        app:layout_constraintVertical_bias="0.207" />
 </androidx.constraintlayout.widget.ConstraintLayout>
